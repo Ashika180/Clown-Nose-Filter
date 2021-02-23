@@ -1,0 +1,20 @@
+.btn-success:hover{
+    background-color: rgb(248, 11, 11);
+}
+
+h1{
+    font-family: Comic Sans MS;
+    font-size: 25px !important;
+}
+
+canvas{
+    border: dashed 4px black;
+    animation-name: change_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change_color{
+    from{ box-shadow: 5px 5px 18px red; }
+    to{ box-shadow: 5px 5px 18px yellow; }
+}
